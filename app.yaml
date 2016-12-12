@@ -15,6 +15,10 @@ handlers:
 - url: /imagenes
   static_dir: static/imagenes
   
+- url: /robots.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+
 - url: .*
   script: main.app
 

@@ -1,6 +1,6 @@
 body{
 	background-color: #E2E2E2;
-	background: url('/imagenes/background.png');
+	background-image: url('/imagenes/background.jpg');
 	color: #434343;
 	font-size: 0.8em;
 }
@@ -20,14 +20,18 @@ p {
 }
 h1{
 	color: #1A1A1A;
-	font-size:2em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10.4em;
+    font-weight: 300;
+	margin:0 0 .2em;
+	text-align: center;
 }
-h2 {
-	color: #1A1A1A;
+h1 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
-h3 {
-	color: #2A6A87;
-}
+h2 { color: #1A1A1A;  }
+h3 { color: #2A6A87;  }
 .block {
 	background-color: #FFF;
 	margin: 0 0 16px;
